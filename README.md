@@ -20,3 +20,24 @@ from sklearn import metrics
 
 from xgboost import XGBClassifier
 from xgboost import plot_importance
+
+ {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+   "import pandas as pd\n",
+    "import numpy as np\n",
+    "import matplotlib as plt\n",
+    "import pickle\n",
+    "from sklearn.model_selection import train_test_split\n",
+    "from sklearn.model_selection import GridSearchCV\n",
+    "from sklearn import metrics\n",
+    "from xgboost import XGBClassifier\n",
+    "from xgboost import plot_importance\n"
+    
+   ]
+  }
